@@ -1,0 +1,845 @@
+<html class=" js canvas no-touch borderradius csscolumns fullscreen"><head>
+
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, target-densitydpi=device-dpi"><!-- this is for mobile (Android) Chrome -->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"><!--  mobile Safari, FireFox, Opera Mobile  -->
+    <title>
+         03 : 0086 - CONSOLIDADO PQR v-03    </title>
+    <link href="/dromos/system/custom/jk/jkondor-3.8/favicon.ico" type="image/x-icon" rel="icon"><link href="/dromos/system/custom/jk/jkondor-3.8/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link rel="stylesheet" href="/dromos/system/custom/jk/jkondor-3.8/css/base.css">    <link rel="stylesheet" href="/dromos/system/custom/jk/jkondor-3.8/css/style.css">    <link rel="stylesheet" href="/dromos/system/custom/jk/jkondor-3.8/css/jkindicators.css">    <link rel="stylesheet" href="/dromos/system/custom/jk/jkondor-3.8/css/jquery-ui-1.9.1.css">
+
+
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/funciones.js"></script>    <script src="/dromos/system/custom/jk/jkondor-3.8/js/modernizr.js"></script>
+ 
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/jquery-1.7.1.min.js"></script>    <script src="/dromos/system/custom/jk/jkondor-3.8/js/jSignature.min.noconflict.js"></script>    <script src="/dromos/system/custom/jk/jkondor-3.8/js/form-builder.min.js"></script><style class="formBuilder-injected-style">@font-face{font-family:'formbuilder-icons';src:url("data:application/octet-stream;base64,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") format("woff")}[class^="formbuilder-icon-"]:before,[class*=" formbuilder-icon-"]:before{font-family:"formbuilder-icons";font-style:normal;font-weight:normal;speak:never;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em}.formbuilder-icon-autocomplete:before{content:'\e800'}.formbuilder-icon-date:before{content:'\e801'}.formbuilder-icon-checkbox:before{content:'\e802'}.formbuilder-icon-checkbox-group:before{content:'\e803'}.formbuilder-icon-radio-group:before{content:'\e804'}.formbuilder-icon-rich-text:before{content:'\e805'}.formbuilder-icon-select:before{content:'\e806'}.formbuilder-icon-textarea:before{content:'\e807'}.formbuilder-icon-text:before{content:'\e808'}.formbuilder-icon-pencil:before{content:'\e809'}.formbuilder-icon-file:before{content:'\e80a'}.formbuilder-icon-hidden:before{content:'\e80b'}.formbuilder-icon-cancel:before{content:'\e80c'}.formbuilder-icon-button:before{content:'\e80d'}.formbuilder-icon-header:before{content:'\e80f'}.formbuilder-icon-paragraph:before{content:'\e810'}.formbuilder-icon-number:before{content:'\e811'}.formbuilder-icon-copy:before{content:'\f24d'}.form-wrap.form-builder{position:relative}.form-wrap.form-builder *{box-sizing:border-box}.form-wrap.form-builder button,.form-wrap.form-builder input,.form-wrap.form-builder select,.form-wrap.form-builder textarea{font-family:inherit;font-size:inherit;line-height:inherit}.form-wrap.form-builder input{line-height:normal}.form-wrap.form-builder textarea{overflow:auto}.form-wrap.form-builder button,.form-wrap.form-builder input,.form-wrap.form-builder select,.form-wrap.form-builder textarea{font-family:inherit;font-size:inherit;line-height:inherit}.form-wrap.form-builder .btn-group{position:relative;display:inline-block;vertical-align:middle}.form-wrap.form-builder .btn-group>.btn{position:relative;float:left}.form-wrap.form-builder .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){border-top-right-radius:0;border-bottom-right-radius:0}.form-wrap.form-builder .btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle){border-radius:0}.form-wrap.form-builder .btn-group .btn+.btn,.form-wrap.form-builder .btn-group .btn+.btn-group,.form-wrap.form-builder .btn-group .btn-group+.btn,.form-wrap.form-builder .btn-group .btn-group+.btn-group{margin-left:-1px}.form-wrap.form-builder .btn-group>.btn:last-child:not(:first-child),.form-wrap.form-builder .btn-group>.dropdown-toggle:not(:first-child),.form-wrap.form-builder .btn-group .input-group .form-control:last-child,.form-wrap.form-builder .btn-group .input-group-addon:last-child,.form-wrap.form-builder .btn-group .input-group-btn:first-child>.btn-group:not(:first-child)>.btn,.form-wrap.form-builder .btn-group .input-group-btn:first-child>.btn:not(:first-child),.form-wrap.form-builder .btn-group .input-group-btn:last-child>.btn,.form-wrap.form-builder .btn-group .input-group-btn:last-child>.btn-group>.btn,.form-wrap.form-builder .btn-group .input-group-btn:last-child>.dropdown-toggle{border-top-left-radius:0;border-bottom-left-radius:0}.form-wrap.form-builder .btn-group>.btn.active,.form-wrap.form-builder .btn-group>.btn:active,.form-wrap.form-builder .btn-group>.btn:focus,.form-wrap.form-builder .btn-group>.btn:hover{z-index:2}.form-wrap.form-builder .btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border-radius:4px}.form-wrap.form-builder .btn.btn-lg{padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:6px}.form-wrap.form-builder .btn.btn-sm{padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.form-wrap.form-builder .btn.btn-xs{padding:1px 5px;font-size:12px;line-height:1.5;border-radius:3px}.form-wrap.form-builder .btn.active,.form-wrap.form-builder .btn.btn-active,.form-wrap.form-builder .btn:active{background-image:none}.form-wrap.form-builder .input-group .form-control:last-child,.form-wrap.form-builder .input-group-addon:last-child,.form-wrap.form-builder .input-group-btn:first-child>.btn-group:not(:first-child)>.btn,.form-wrap.form-builder .input-group-btn:first-child>.btn:not(:first-child),.form-wrap.form-builder .input-group-btn:last-child>.btn,.form-wrap.form-builder .input-group-btn:last-child>.btn-group>.btn,.form-wrap.form-builder .input-group-btn:last-child>.dropdown-toggle{border-top-left-radius:0;border-bottom-left-radius:0}.form-wrap.form-builder .input-group .form-control,.form-wrap.form-builder .input-group-addon,.form-wrap.form-builder .input-group-btn{display:table-cell}.form-wrap.form-builder .input-group-lg>.form-control,.form-wrap.form-builder .input-group-lg>.input-group-addon,.form-wrap.form-builder .input-group-lg>.input-group-btn>.btn{height:46px;padding:10px 16px;font-size:18px;line-height:1.3333333}.form-wrap.form-builder .input-group{position:relative;display:table;border-collapse:separate}.form-wrap.form-builder .input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}.form-wrap.form-builder .form-control,.form-wrap.form-builder output{font-size:14px;line-height:1.42857143;display:block}.form-wrap.form-builder textarea.form-control{height:auto}.form-wrap.form-builder .form-control{height:34px;display:block;width:100%;padding:6px 12px;font-size:14px;line-height:1.42857143;border-radius:4px}.form-wrap.form-builder .form-control:focus{outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6)}.form-wrap.form-builder .form-group{margin-left:0px;margin-bottom:15px}.form-wrap.form-builder .btn,.form-wrap.form-builder .form-control{background-image:none}.form-wrap.form-builder .pull-right{float:right}.form-wrap.form-builder .pull-left{float:left}.form-wrap.form-builder .formbuilder-required,.form-wrap.form-builder .required-asterisk{color:#c10000}.form-wrap.form-builder .formbuilder-checkbox-group input[type='checkbox'],.form-wrap.form-builder .formbuilder-checkbox-group input[type='radio'],.form-wrap.form-builder .formbuilder-radio-group input[type='checkbox'],.form-wrap.form-builder .formbuilder-radio-group input[type='radio']{margin:0 4px 0 0}.form-wrap.form-builder .formbuilder-checkbox-inline,.form-wrap.form-builder .formbuilder-radio-inline{margin-right:8px;display:inline-block;vertical-align:middle;padding-left:0}.form-wrap.form-builder .formbuilder-checkbox-inline label input[type='text'],.form-wrap.form-builder .formbuilder-radio-inline label input[type='text']{margin-top:0}.form-wrap.form-builder .formbuilder-checkbox-inline:first-child,.form-wrap.form-builder .formbuilder-radio-inline:first-child{padding-left:0}.form-wrap.form-builder .formbuilder-autocomplete-list{background-color:#fff;display:none;list-style:none;padding:0;border:1px solid #ccc;border-width:0 1px 1px;position:absolute;z-index:20;max-height:200px;overflow-y:auto}.form-wrap.form-builder .formbuilder-autocomplete-list li{display:none;cursor:default;padding:5px;margin:0;transition:background-color 200ms ease-in-out}.form-wrap.form-builder .formbuilder-autocomplete-list li:hover,.form-wrap.form-builder .formbuilder-autocomplete-list li.active-option{background-color:rgba(0,0,0,0.075)}@keyframes PLACEHOLDER{0%{height:1px}100%{height:15px}}.form-wrap.form-builder .cb-wrap{width:26%;transition:transform 250ms}.form-wrap.form-builder .cb-wrap.pull-left .form-actions{float:left}.form-wrap.form-builder .cb-wrap h4{margin-top:0;color:#666}@media (max-width: 481px){.form-wrap.form-builder .cb-wrap{width:64px}.form-wrap.form-builder .cb-wrap h4{display:none}}.form-wrap.form-builder .frmb-control{margin:0;padding:0;border-radius:5px}.form-wrap.form-builder .frmb-control li{font-size: 12px;cursor:move;list-style:none;margin:0 0 -1px 0;padding:10px;text-align:left;background:#fff;-webkit-user-select:none;-ms-user-select:none;user-select:none;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;box-shadow:inset 0 0 0 1px #c5c5c5}.form-wrap.form-builder .frmb-control li .control-icon{width:16px;height:auto;margin-right:10px;margin-left:0.2em;display:inline-block}.form-wrap.form-builder .frmb-control li .control-icon img,.form-wrap.form-builder .frmb-control li .control-icon svg{max-width:100%;height:auto}.form-wrap.form-builder .frmb-control li:first-child{border-radius:5px 5px 0 0;margin-top:0}.form-wrap.form-builder .frmb-control li:last-child{border-radius:0 0 5px 5px}.form-wrap.form-builder .frmb-control li::before{margin-right:10px;font-size:16px}.form-wrap.form-builder .frmb-control li:hover{background-color:#f2f2f2}.form-wrap.form-builder .frmb-control li.ui-sortable-helper{border-radius:5px;transition:box-shadow 250ms;box-shadow:2px 2px 6px 0 #666;border:1px solid #fff}.form-wrap.form-builder .frmb-control li.ui-state-highlight{width:0;overflow:hidden;padding:0;margin:0;border:0 none}.form-wrap.form-builder .frmb-control li.moving{opacity:.6}.form-wrap.form-builder .frmb-control li.formbuilder-separator{background-color:transparent;box-shadow:none;padding:0;cursor:default}.form-wrap.form-builder .frmb-control li.formbuilder-separator hr{margin:10px 0}@media (max-width: 481px){.form-wrap.form-builder .frmb-control li::before{font-size:30px}.form-wrap.form-builder .frmb-control li span{display:none}}.form-wrap.form-builder .frmb-control.sort-enabled li.ui-state-highlight{box-shadow:none;height:0;width:100%;background:radial-gradient(ellipse at center, #545454 0%, rgba(0,0,0,0) 75%);border:0 none;-webkit-clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);visibility:visible;overflow:hidden;margin:1px 0 3px;animation:PLACEHOLDER 250ms forwards}.form-wrap.form-builder .formbuilder-mobile .form-actions{width:100%}.form-wrap.form-builder .formbuilder-mobile .form-actions button{width:100%;font-size:.85em !important;display:block !important;border-radius:0 !important;margin-top:-1px;margin-left:0 !important}.form-wrap.form-builder .formbuilder-mobile .form-actions button:first-child{border-radius:5px 5px 0 0 !important;margin-top:0 !important;border-bottom:0 none}.form-wrap.form-builder .formbuilder-mobile .form-actions button:last-child{border-radius:0 0 5px 5px !important}.form-wrap.form-builder .form-actions{float:right;margin-top:5px}.form-wrap.form-builder .form-actions button{border:0 none}.form-wrap.form-builder .stage-wrap{position:relative;padding:0;margin:0;width:calc(74% - 5px)}@media (max-width: 481px){.form-wrap.form-builder .stage-wrap{width:calc(100% - 64px)}}.form-wrap.form-builder .stage-wrap.empty{border:3px dashed #ccc;background-color:rgba(255,255,255,0.25)}.form-wrap.form-builder .stage-wrap.empty::after{content:attr(data-content);position:absolute;text-align:center;top:50%;left:0;width:100%;margin-top:-1em}.form-wrap.form-builder .frmb{list-style-type:none;min-height:200px;transition:background-color 500ms ease-in-out}.form-wrap.form-builder .frmb .formbuilder-required{color:#c10000}.form-wrap.form-builder .frmb.removing{overflow:hidden}.form-wrap.form-builder .frmb>li:hover{border-color:#66afe9;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 0 8px rgba(102,175,233,0.6)}.form-wrap.form-builder .frmb>li:hover .field-actions{opacity:1}.form-wrap.form-builder .frmb>li:hover li :hover{background:#fefefe}.form-wrap.form-builder .frmb li{position:relative;padding:6px;clear:both;margin-left:0;margin-bottom:3px;background-color:#fff;transition:background-color 250ms ease-in-out, margin-top 400ms}.form-wrap.form-builder .frmb li.hidden-field{background-color:rgba(255,255,255,0.6)}.form-wrap.form-builder .frmb li:first-child{border-top-right-radius:5px;border-top-left-radius:5px}.form-wrap.form-builder .frmb li:first-child .field-actions .btn:last-child{border-radius:0 5px 0 0}.form-wrap.form-builder .frmb li:last-child{border-bottom-right-radius:5px;border-bottom-left-radius:5px}.form-wrap.form-builder .frmb li.no-fields label{font-weight:400}@keyframes PLACEHOLDER{0%{height:0}100%{height:15px}}.form-wrap.form-builder .frmb li.frmb-placeholder,.form-wrap.form-builder .frmb li.ui-state-highlight{height:0;padding:0;background:radial-gradient(ellipse at center, #545454 0%, rgba(0,0,0,0) 75%);border:0 none;-webkit-clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);visibility:visible;overflow:hidden;margin-bottom:3px;animation:PLACEHOLDER 250ms forwards}.form-wrap.form-builder .frmb li.moving,.form-wrap.form-builder .frmb li.ui-sortable-helper{transition:box-shadow 500ms ease-in-out;box-shadow:2px 2px 6px 0 #666;border:1px solid #fff;border-radius:5px}.form-wrap.form-builder .frmb li.disabled-field{z-index:1;position:relative;overflow:visible}.form-wrap.form-builder .frmb li.disabled-field:hover .frmb-tt{display:inline-block}.form-wrap.form-builder .frmb li.disabled-field [type='checkbox']{float:left;margin-right:10px}.form-wrap.form-builder .frmb li.disabled-field h2{border-bottom:0 none}.form-wrap.form-builder .frmb li.disabled-field label{font-size:12px;font-weight:400;color:#666}.form-wrap.form-builder .frmb li.disabled-field .prev-holder{cursor:default;line-height:28px;padding-left:5px}.form-wrap.form-builder .frmb li .close-field{position:absolute;color:#666;left:50%;bottom:6px;background:#fff;border-top:1px solid #c5c5c5;border-left:1px solid #c5c5c5;border-right:1px solid #c5c5c5;transform:translateX(-50%);padding:0 5px;border-top-right-radius:3px;border-top-left-radius:3px;cursor:pointer;transition:background-color 250ms ease-in-out}.form-wrap.form-builder .frmb li .close-field:hover{text-decoration:none}.form-wrap.form-builder .frmb li.button-field h1,.form-wrap.form-builder .frmb li.button-field h2,.form-wrap.form-builder .frmb li.button-field h3,.form-wrap.form-builder .frmb li.button-field p,.form-wrap.form-builder .frmb li.button-field canvas,.form-wrap.form-builder .frmb li.button-field output,.form-wrap.form-builder .frmb li.button-field address,.form-wrap.form-builder .frmb li.button-field blockquote,.form-wrap.form-builder .frmb li.button-field .prev-holder,.form-wrap.form-builder .frmb li.header-field h1,.form-wrap.form-builder .frmb li.header-field h2,.form-wrap.form-builder .frmb li.header-field h3,.form-wrap.form-builder .frmb li.header-field p,.form-wrap.form-builder .frmb li.header-field canvas,.form-wrap.form-builder .frmb li.header-field output,.form-wrap.form-builder .frmb li.header-field address,.form-wrap.form-builder .frmb li.header-field blockquote,.form-wrap.form-builder .frmb li.header-field .prev-holder,.form-wrap.form-builder .frmb li.paragraph-field h1,.form-wrap.form-builder .frmb li.paragraph-field h2,.form-wrap.form-builder .frmb li.paragraph-field h3,.form-wrap.form-builder .frmb li.paragraph-field p,.form-wrap.form-builder .frmb li.paragraph-field canvas,.form-wrap.form-builder .frmb li.paragraph-field output,.form-wrap.form-builder .frmb li.paragraph-field address,.form-wrap.form-builder .frmb li.paragraph-field blockquote,.form-wrap.form-builder .frmb li.paragraph-field .prev-holder{margin:0}.form-wrap.form-builder .frmb li.button-field .field-label,.form-wrap.form-builder .frmb li.header-field .field-label,.form-wrap.form-builder .frmb li.paragraph-field .field-label{display:none}.form-wrap.form-builder .frmb li.button-field.editing .field-label,.form-wrap.form-builder .frmb li.header-field.editing .field-label,.form-wrap.form-builder .frmb li.paragraph-field.editing .field-label{display:block}.form-wrap.form-builder .frmb li.paragraph-field .fld-label{min-height:150px;overflow-y:auto}.form-wrap.form-builder .frmb li.checkbox-field .field-label{display:none}.form-wrap.form-builder .frmb li.deleting,.form-wrap.form-builder .frmb li.delete:hover,.form-wrap.form-builder .frmb li:hover li.delete:hover{background-color:#fdd}.form-wrap.form-builder .frmb li.deleting .close-field,.form-wrap.form-builder .frmb li.delete:hover .close-field,.form-wrap.form-builder .frmb li:hover li.delete:hover .close-field{background-color:#fdd}.form-wrap.form-builder .frmb li.deleting{z-index:20;pointer-events:none}.form-wrap.form-builder .frmb.disabled-field{padding:0 5px}.form-wrap.form-builder .frmb.disabled-field :hover{border-color:transparent}.form-wrap.form-builder .frmb.disabled-field .form-element{float:none;margin-bottom:10px;overflow:visible;padding:5px 0;position:relative}.form-wrap.form-builder .frmb .frm-holder{display:none}.form-wrap.form-builder .frmb .tooltip{left:20px}.form-wrap.form-builder .frmb .prev-holder{display:block}.form-wrap.form-builder .frmb .prev-holder .form-group{margin:0}.form-wrap.form-builder .frmb .prev-holder .ql-editor{min-height:125px}.form-wrap.form-builder .frmb .prev-holder .form-group>label:not([class='formbuilder-checkbox-label']){display:none}.form-wrap.form-builder .frmb .prev-holder select,.form-wrap.form-builder .frmb .prev-holder input[type='text'],.form-wrap.form-builder .frmb .prev-holder textarea,.form-wrap.form-builder .frmb .prev-holder input[type='number']{background-color:#fff;border:1px solid #ccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}.form-wrap.form-builder .frmb .prev-holder input[type='color']{width:60px;padding:2px;display:inline-block}.form-wrap.form-builder .frmb .prev-holder input[type='date']{width:auto}.form-wrap.form-builder .frmb .prev-holder select[multiple]{height:auto}.form-wrap.form-builder .frmb .prev-holder label{font-weight:normal}.form-wrap.form-builder .frmb .prev-holder input[type='number']{width:auto}.form-wrap.form-builder .frmb .prev-holder input[type='color']{width:60px;padding:2px;display:inline-block}.form-wrap.form-builder .frmb .required-asterisk{display:none}.form-wrap.form-builder .frmb .field-label,.form-wrap.form-builder .frmb .legend{color:#666;margin-bottom:5px;line-height:27px;font-size:16px;font-weight:normal}.form-wrap.form-builder .frmb .disabled-field .field-label{display:block}.form-wrap.form-builder .frmb .other-option:checked+label input{display:inline-block}.form-wrap.form-builder .frmb .other-val{margin-left:5px;display:none}.form-wrap.form-builder .frmb .field-actions{position:absolute;top:0;right:0;opacity:0}.form-wrap.form-builder .frmb .field-actions a::before{margin:0}.form-wrap.form-builder .frmb .field-actions a:hover{text-decoration:none;color:#000}.form-wrap.form-builder .frmb .field-actions .btn{display:inline-block;width:32px;height:32px;padding:0 6px;border-radius:0;border-color:#c5c5c5;background-color:#fff;color:#c5c5c5;line-height:32px;font-size:16px;border-width:0 0 1px 1px}.form-wrap.form-builder .frmb .field-actions .btn:first-child{border-bottom-left-radius:5px}.form-wrap.form-builder .frmb .field-actions .toggle-form:hover{background-color:#65aac6;color:#fff}.form-wrap.form-builder .frmb .field-actions .copy-button:hover{background-color:#6fc665;color:#fff}.form-wrap.form-builder .frmb .field-actions .del-button:hover{background-color:#c66865;color:#fff}.form-wrap.form-builder .frmb .option-actions{text-align:right;margin-top:10px;width:100%;margin-left:2%}.form-wrap.form-builder .frmb .option-actions button,.form-wrap.form-builder .frmb .option-actions a{background:#fff;padding:5px 10px;border:1px solid #c5c5c5;font-size:14px;border-radius:5px;cursor:default}.form-wrap.form-builder .frmb .sortable-options-wrap{width:81.33333333%;display:inline-block}.form-wrap.form-builder .frmb .sortable-options-wrap label{font-weight:normal}@media (max-width: 481px){.form-wrap.form-builder .frmb .sortable-options-wrap{display:block;width:100%}}.form-wrap.form-builder .frmb .sortable-options{display:inline-block;width:100%;margin-left:2%;background:#c5c5c5;margin-bottom:0;border-radius:5px;list-style:none;padding:0}.form-wrap.form-builder .frmb .sortable-options>li{display:flex;cursor:move;margin:1px;padding-right:28px}.form-wrap.form-builder .frmb .sortable-options>li:nth-child(1) .remove{display:none}.radio-group-field .form-wrap.form-builder .frmb .sortable-options>li:nth-child(2) .remove{display:none}.form-wrap.form-builder .frmb .sortable-options>li .remove{position:absolute;opacity:1;right:8px;height:18px;width:18px;top:14px;font-size:12px;padding:0;color:#c10000}.form-wrap.form-builder .frmb .sortable-options>li .remove::before{margin:0}.form-wrap.form-builder .frmb .sortable-options>li .remove:hover{background-color:#c10000;text-decoration:none;color:#fff}.form-wrap.form-builder .frmb .sortable-options .option-selected{margin:0;width:5%}.form-wrap.form-builder .frmb .sortable-options input[type='text']{width:calc(44.5% - 17px);margin:0 3px;float:none}.form-wrap.form-builder .frmb .form-field .form-group{width:100%;clear:left;float:none}.form-wrap.form-builder .frmb .col-md-6 .form-elements,.form-wrap.form-builder .frmb .col-md-8 .form-elements{width:100%}.form-wrap.form-builder .frmb .field-options .add-area .add{clear:both}.form-wrap.form-builder .frmb .style-wrap button.selected{border:1px solid #000;margin-top:0;margin-right:1px;box-shadow:0 0 0 1px #fff inset;padding:1px 5px}.form-wrap.form-builder .frmb .form-elements{padding:10px 5px;background:#f7f7f7;border-radius:3px;margin:0;border:1px solid #c5c5c5}.form-wrap.form-builder .frmb .form-elements .input-wrap{width:81.33333333%;margin-left:2%;float:left}.form-wrap.form-builder .frmb .form-elements .input-wrap>input[type='checkbox']{margin-top:8px}.form-wrap.form-builder .frmb .form-elements .btn-group{margin-left:2%}.form-wrap.form-builder .frmb .form-elements .add{clear:both}.form-wrap.form-builder .frmb .form-elements [contenteditable],.form-wrap.form-builder .frmb .form-elements select[multiple]{height:auto}.form-wrap.form-builder .frmb .form-elements [contenteditable].form-control,.form-wrap.form-builder .frmb .form-elements input[type='text'],.form-wrap.form-builder .frmb .form-elements input[type='number'],.form-wrap.form-builder .frmb .form-elements input[type='date'],.form-wrap.form-builder .frmb .form-elements input[type='color'],.form-wrap.form-builder .frmb .form-elements textarea,.form-wrap.form-builder .frmb .form-elements select{transition:background 250ms ease-in-out;padding:6px 12px;border:1px solid #c5c5c5;background-color:#fff}@media (max-width: 481px){.form-wrap.form-builder .frmb .form-elements .input-wrap{width:100%;margin-left:0;float:none}}.form-wrap.form-builder .frmb .form-elements input[type='number']{width:auto}.form-wrap.form-builder .frmb .form-elements .btn-group{margin-left:2%}.col-md-6 .form-wrap.form-builder .frmb .form-elements .false-label,.col-md-8 .form-wrap.form-builder .frmb .form-elements .false-label,.col-md-6 .form-wrap.form-builder .frmb .form-elements label,.col-md-8 .form-wrap.form-builder .frmb .form-elements label{display:block}.form-wrap.form-builder .frmb .form-elements .false-label:first-child,.form-wrap.form-builder .frmb .form-elements label:first-child{width:16.66666667%;padding-top:7px;margin-bottom:0;text-align:right;font-weight:700;float:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:capitalize}@media (max-width: 481px){.form-wrap.form-builder .frmb .form-elements .false-label:first-child,.form-wrap.form-builder .frmb .form-elements label:first-child{display:block;width:auto;float:none;text-align:left}.form-wrap.form-builder .frmb .form-elements .false-label:first-child.empty-label,.form-wrap.form-builder .frmb .form-elements label:first-child.empty-label{display:none}}.form-wrap.form-builder .frmb .form-elements .false-label.multiple,.form-wrap.form-builder .frmb .form-elements .false-label.required-label,.form-wrap.form-builder .frmb .form-elements .false-label.toggle-label,.form-wrap.form-builder .frmb .form-elements .false-label.roles-label,.form-wrap.form-builder .frmb .form-elements .false-label.other-label,.form-wrap.form-builder .frmb .form-elements label.multiple,.form-wrap.form-builder .frmb .form-elements label.required-label,.form-wrap.form-builder .frmb .form-elements label.toggle-label,.form-wrap.form-builder .frmb .form-elements label.roles-label,.form-wrap.form-builder .frmb .form-elements label.other-label{text-align:left;float:none;margin-bottom:-3px;font-weight:400;width:calc(81.3333% - 23px)}.form-wrap.form-builder .frmb .form-elements input.error{border:1px solid #c10000}.form-wrap.form-builder .frmb .form-elements input.fld-maxlength{width:75px}.form-wrap.form-builder .frmb .form-elements input.field-error{background:#fefefe;border:1px solid #c5c5c5}.form-wrap.form-builder .frmb .form-elements label em{display:block;font-weight:400;font-size:0.75em}.form-wrap.form-builder .frmb .form-elements label.maxlength-label{line-height:1em}.form-wrap.form-builder .frmb .form-elements .available-roles{display:none;padding:10px;margin:10px 0;background:#e6e6e6;box-shadow:inset 0 0 2px 0 #b3b3b3}@media (max-width: 481px){.form-wrap.form-builder .frmb .form-elements .available-roles{margin-left:0}}.form-wrap.form-builder .frmb .form-elements .available-roles label{font-weight:400;width:auto;float:none;display:inline}.form-wrap.form-builder .frmb .form-elements .available-roles input{display:inline;top:auto}.form-wrap.form-builder .autocomplete-field .sortable-options .option-selected{display:none}.form-wrap.form-builder .formbuilder-mobile .field-actions{opacity:1}.form-wrap.form-builder *[tooltip]{position:relative}.form-wrap.form-builder *[tooltip]:hover:after{background:rgba(0,0,0,0.9);border-radius:5px 5px 5px 0;bottom:23px;color:#fff;content:attr(tooltip);padding:10px 5px;position:absolute;z-index:98;left:2px;width:230px;text-shadow:none;font-size:12px;line-height:1.5em;cursor:default}.form-wrap.form-builder *[tooltip]:hover:before{border:solid;border-color:#222 transparent;border-width:6px 6px 0;bottom:17px;content:'';left:2px;position:absolute;z-index:99;cursor:default}.form-wrap.form-builder .tooltip-element{visibility:visible;color:#fff;background:#000;width:16px;height:16px;border-radius:8px;display:inline-block;text-align:center;line-height:16px;margin:0 5px;font-size:12px;cursor:default}.form-wrap.form-builder .kc-toggle{padding-left:0 !important}.form-wrap.form-builder .kc-toggle span{position:relative;width:48px;height:24px;background:#e6e6e6;display:inline-block;border-radius:4px;border:1px solid #ccc;padding:2px;overflow:hidden;float:left;margin-right:5px;will-change:transform}.form-wrap.form-builder .kc-toggle span::after,.form-wrap.form-builder .kc-toggle span::before{position:absolute;display:inline-block;top:0}.form-wrap.form-builder .kc-toggle span::after{position:relative;content:'';width:50%;height:100%;left:0;border-radius:3px;background:linear-gradient(to bottom, #fff 0%, #ccc 100%);border:1px solid #999;transition:transform 100ms;transform:translateX(0)}.form-wrap.form-builder .kc-toggle span::before{border-radius:4px;top:2px;left:2px;content:'';width:calc(100% - 4px);height:18px;box-shadow:0 0 1px 1px #b3b3b3 inset;background-color:transparent}.form-wrap.form-builder .kc-toggle input{height:0;overflow:hidden;width:0;opacity:0;pointer-events:none;margin:0}.form-wrap.form-builder .kc-toggle input:checked+span::after{transform:translateX(100%)}.form-wrap.form-builder .kc-toggle input:checked+span::before{background-color:#6fc665}.form-wrap.form-builder::after{content:'';display:table;clear:both}.cb-wrap,.stage-wrap{vertical-align:top}.cb-wrap.pull-right,.stage-wrap.pull-right{float:right}.cb-wrap.pull-left,.stage-wrap.pull-left{float:left}.form-elements,.form-group,.multi-row span,textarea{display:block}.form-elements::after,.form-group::after{content:'.';display:block;height:0;clear:both;visibility:hidden}.form-elements .field-options div:hover,.frmb .legend,.frmb .prev-holder{cursor:move}.frmb-tt{display:none;position:absolute;top:0;left:0;border:1px solid #262626;background-color:#666;border-radius:5px;padding:5px;color:#fff;z-index:20;text-align:left;font-size:12px;pointer-events:none}.frmb-tt::before{border-color:#262626 transparent;bottom:-11px}.frmb-tt::before,.frmb-tt::after{content:'';position:absolute;border-style:solid;border-width:10px 10px 0;border-color:#666 transparent;display:block;width:0;z-index:1;margin-left:-10px;bottom:-10px;left:20px}.frmb-tt a{text-decoration:underline;color:#fff}.frmb li:hover .del-button,.frmb li:hover .toggle-form,.formbuilder-mobile .frmb li .del-button,.formbuilder-mobile .frmb li .toggle-form{opacity:1}.frmb-xml .ui-dialog-content{white-space:pre-wrap;word-wrap:break-word;font-size:12px;padding:0 30px;margin-top:0}.toggle-form{opacity:0}.toggle-form:hover{border-color:#ccc}.toggle-form::before{margin:0}.formb-field-vars .copy-var{display:inline-block;width:24px;height:24px;background:#b3b3b3;text-indent:-9999px}.ui-button .ui-button-text{line-height:0}.form-builder-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);display:none;z-index:10}.form-builder-overlay.visible{display:block}.form-builder-dialog{position:absolute;border-radius:5px;background:#fff;z-index:20;transform:translate(-50%, -50%);top:0;left:0;padding:10px;box-shadow:0 3px 10px #000;min-width:166px;max-height:80%;overflow-y:scroll}.form-builder-dialog h3{margin-top:0}.form-builder-dialog.data-dialog{width:65%;background-color:#23241f}.form-builder-dialog.data-dialog pre{background:none;border:0 none;box-shadow:none;margin:0;color:#f2f2f2}.form-builder-dialog.positioned{transform:translate(-50%, -100%)}.form-builder-dialog.positioned .button-wrap::before{content:'';width:0;height:0;border-left:15px solid transparent;border-right:15px solid transparent;border-top:10px solid #fff;position:absolute;left:50%;top:100%;transform:translate(-50%, 10px)}.form-builder-dialog .button-wrap{position:relative;margin-top:10px;text-align:right;clear:both}.form-builder-dialog .button-wrap .btn{margin-left:10px}
+</style>    <script src="/dromos/system/custom/jk/jkondor-3.8/js/jkfunctions.js"></script>
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/jquery-ui-1.8.24.js"></script>
+ 
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/multiple-select.js"></script>
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/../../../../themes/default/bootstrap/bootstrap.min.js"></script>
+  
+
+
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/bootbox.min.js"></script>
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/bootbox.js"></script>
+    <link rel="stylesheet" href="/dromos/system/custom/jk/jkondor-3.8/css/bootbox.css">
+   
+
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/../../../../include/javascript/sugar_grp1.js"></script>
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/../../../../cache/jsLanguage/es_es.js"></script>
+    <script src="/dromos/system/custom/jk/jkondor-3.8/js/../../../../cache/jsLanguage/jkrg_templates/es_es.js"></script>
+    
+
+            
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+        $( ".picker" ).datepicker({ 
+            showButtonPanel: true, 
+            dateFormat: "yy-mm-dd", 
+            showWeek: true, 
+            weekHeader: "Sem", 
+            dayNamesMin: ["Dom", "Lun", "Mar", "Mier", "Jue", "Vier", "Sab"], 
+            monthNames: ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"], 
+    				monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dec'],
+            changeYear: true,
+            changeMonth: true,
+         });
+      });
+      
+    </script>
+</head>
+
+
+<body>
+    <table style="min-width: 360px; width: 85%; margin-left: auto; margin-right: auto;" cellspacing="0"> 
+	 <tbody>
+	  <tr>
+	   <td>
+                <div class="container clearfix">
+            <!-- <div id="modal" class="modal-container">
+                <div id="innerDiv" class="modal"></div>
+            </div> -->
+            <script src="/dromos/system/custom/jk/jkondor-3.8/js/../tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+tinymce.init({
+/*selector: "textarea", */
+   selector : ".mceEditor",   
+   mobile: {
+    menubar: true
+   },
+   language: "es",
+   width: "100%",
+   browser_spellcheck : true,
+   contextmenu: false,
+   paste_data_images: true,
+   image_advtab: true,
+   relative_urls : false,
+   remove_script_host : false,
+   convert_urls : true,
+   automatic_uploads: true,
+   images_upload_url: "/dromos/system/custom/jk/jkondor-3.8/postAcceptor.php",
+// ===========================================
+// INCLUDE THE PLUGIN
+// ===========================================
+   plugins: [
+   "advlist autolink autoresize autosave lists link image charmap print preview anchor",
+   "searchreplace visualblocks code fullscreen directionality paste textpattern noneditable",
+   "insertdatetime media nonbreaking table emoticons hr wordcount toc",
+   
+// "paste"
+   ],
+   noneditable_noneditable_class: "mceNonEditable",
+
+    // Esta funcion se utilizara para cargar datos almacenados localmente en los campos tipo Parrafo
+    setup: function (ed) {
+        ed.on('init', function(args) {
+            // console.debug('******************************* Editor is done: ' + args.target.id);
+            
+            // Esta variable viene del la funcion loadDataLocally 
+            var localDataFieldId = window.localStorage.getItem(`register.tinymce.${args.target.id}`);
+
+            if (typeof(localDataFieldId) != 'undefined' && localDataFieldId != null){                
+                ed.setContent(localDataFieldId);
+                window.localStorage.removeItem(`register.tinymce.${args.target.id}`);
+            }
+
+            document.getElementById('floatActionButton').style.display = 'block';
+            dataLoaded = fieldsData(); //asigna la informacion para validar si se recarga la pagina sin guardar cambios
+            creatergFlag = false;
+        });
+
+
+        // Esta funcion se encarga de mantener una imagen con una dimencion maxima de 750px
+        ed.on('NodeChange', function(e) {
+        if (e.element.nodeName === 'IMG') {
+    
+            var img = e.element;
+            var currentWidth = parseInt(img.getAttribute('width'), 10);
+    
+            if (currentWidth > 750) {
+                img.setAttribute('style', 'max-width:750px');
+                img.setAttribute('height', 'auto');
+                img.setAttribute('object-fit', 'contain');
+            }
+        }
+    });
+    },
+
+   // jkdevia : 5.7 : Adicion de defaults para la creacion de tablas
+   table_default_styles: {
+        width: '100%',
+      },
+   table_default_attributes: {
+       border: 1, cellspacing: "0",
+   },
+
+   content_style: 'img {max-width: 80%;}',
+   
+
+// spellchecker_rpc_url: 'spellchecker.php',
+
+// external_plugins: {"nanospell": "plugins/nanospell/plugin.js"},
+// nanospell_server: "php",
+// nanospell_dictionary: "es",
+
+// Remove : contextmenu
+// ===========================================
+// PUT PLUGIN'S BUTTON on the toolbar
+// ===========================================
+   toolbar1: "insertfile undo redo | bold italic forecolor backcolor | formatselect | alignleft aligncenter alignright alignjustify | bullist numlist | toc",
+   toolbar2: "outdent indent | preview emoticons restoredraft | ltr rtl | wordcount | styleselect | fontselect fontsizeselect ",
+   removed_menuitems: "newdocument",
+      
+// ===========================================
+// SET RELATIVE_URLS to FALSE (This is required for images to display properly)
+// ===========================================
+   relative_urls: false,
+
+// ===========================================
+// Se limita las dimenciones de la imagen a 750px maximo
+// ===========================================
+    content_style: 'img { max-width: 750px; object-fit: contain; height: auto; }',
+
+
+});
+</script>
+<!-- /TinyMCE -->
+
+<!-- TinyMCE Lite-->
+<script type="text/javascript">
+tinymce.init({
+ 
+   selector : ".mceLite",   
+   browser_spellcheck : true,
+   contextmenu: false,
+   language : 'es',
+   paste_data_images: false,
+   image_advtab: false,
+   toolbar: false,
+   menubar: false,
+   statusbar: false,
+   relative_urls : false,
+   remove_script_host : false,
+   convert_urls : true,
+   plugins: [
+   "advlist autolink autoresize lists link image charmap print preview anchor",
+   "searchreplace visualblocks code fullscreen directionality paste textpattern noneditable",
+   "insertdatetime media table nonbreaking textcolor colorpicker emoticons hr wordcount",
+   ],
+   table_toolbar: "tableinsertrowafter",
+   noneditable_noneditable_class: "mceNonEditable",
+
+    // Esta funcion se utilizara para cargar datos almacenados localmente en los campos tipo Parrafo
+    setup: function (ed) {
+        tinyLoaded = 'no';
+        ed.on('init', function(args) {
+            // console.debug('******************************* Editor is done: ' + args.target.id);
+            
+            // Esta variable viene del la funcion loadDataLocally 
+            var localDataFieldId = window.localStorage.getItem(`register.tinymce.${args.target.id}`);
+
+            if (typeof(localDataFieldId) != 'undefined' && localDataFieldId != null){                
+                ed.setContent(localDataFieldId);
+                window.localStorage.removeItem(`register.tinymce.${args.target.id}`);
+            }
+            tinyLoaded = 'si';
+            document.getElementById('floatActionButton').style.display = 'block';
+            dataLoaded = fieldsData(); //asigna la informacion para validar si se recarga la pagina sin guardar cambios
+            creatergFlag = false;
+        });
+    },
+
+   // jkdevia : 5.7 : Adicion de defaults para la creacion de tablas
+   table_default_styles: {
+        width: '10%',
+      },
+   table_default_attributes: {
+       border: 1, cellspacing: "0",
+   },
+
+   content_style: 'img {max-width: 80%;}',   
+   removed_menuitems: "newdocument",
+   relative_urls: false,
+
+});
+</script>
+<!-- /TinyMCE Lite-->
+
+<!-- Consulta el idioma de la sesión -->
+
+<div id="guardandoDiv" class="guardandoDiv" style="display: none">
+	<h2 style="text-align: center; color	: white; font-size: 400%"> 
+	GUARDANDO ...	</h2>
+</div><div class="jkrgTemplates form" style="background: white">
+	
+	
+			<table class="tableControlFormato" border="1" cellspacing="0" style="width: 100%; margin-bottom: 10px;">
+
+						
+				<tbody><tr>
+					<td width="20%" style="vertical-align: middle; text-align: center; margin-left: auto; margin-right: auto;">
+						<img width="100%" border="0" alt="Company Logo" src="../../../../custom/themes/default/images/logo-Gestion.Documental.jpg">
+					</td>
+					<td width="60%" style="text-align: center;"> 
+						<h2>CONSOLIDADO PQR</h2>
+					</td>
+					<td width="20%" style="text-align: center;">
+						<h2>Version: 03</h2>
+					</td>
+				</tr>
+
+			
+			</tbody></table>
+
+		<form method="post" accept-charset="utf-8" data-jksubmit="saveForm" id="JkrgObjectsCreatergForm" action="/dromos/system/custom/jk/jkondor-3.8/JkrgTemplates/createrg?defaults={&quot;DEFAULTS&quot;:&quot;def&quot;}&amp;id=5024f2ff-5285-c05f-a3b5-64513ab8588f"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>		
+	<fieldset id="createrg" class="wordBreakTable">
+	
+	
+	<input type="hidden" name="register_id" id="JkrgObjectsRegisterId" value=""><input type="hidden" name="team_id" id="JkrgObjectsTeamID" value=""><input type="hidden" name="JkrgObjects[asignar_a]" id="JkrgObjectsAsignarA" value=""><input type="hidden" name="JkrgObjects[asignar_a_id]" id="JkrgObjectsAsignarAId" value=""><input type="hidden" name="contact_id" id="JkrgObjectsContactId"><input type="hidden" name="lead_id" id="JkrgObjectsLeadId"><input type="hidden" name="crear_firmas" id="JkrgObjectsCrearFirmas" value=""><input type="hidden" name="formularioCreacion" id="formularioCreacion" value="No"><input type="hidden" name="formularioFirmas" id="formularioFirmas"><input type="hidden" name="JkrgRegister[estado]" id="JkrgRegisterEstado">
+	
+				<div class="createObject">
+		<div class="input email"><label for="JkrgObjectsCorreoRegistro"><strong><script>document.write(SUGAR.language.get( 'app_strings', 'LBL_CORREO_ELECTRONICO'))</script>Email </strong></label><input type="email" name="JkrgObjects[correo_registro]" multiple="multiple" style="width:100%" placeholder="example1@domain.com,example2@do..." id="JkrgObjectsCorreoRegistro" value="" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></div>		</div>
+			
+		<div class="objectContainer">
+		
+		
+			
+			<div class="createObject" data-td-label="npqr">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<div>
+				<div data-td-label="npqr"> 
+					<b>N° CONSECUTIVO PQR</b> 
+									</div>
+			</div>
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="npqr" title="">
+						<div class="input text"><label for="a707ccae-bb16-44ad-8aed-8b8c292585e3"></label><input type="text" name="JkrgObjects[a707ccae-bb16-44ad-8aed-8b8c292585e3]" placeholder="" style="width: 100%" data-input="npqr" data-type="Texto" id="a707ccae-bb16-44ad-8aed-8b8c292585e3"></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="createObject" data-td-label="razonSocialCliente">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<div>
+				<div data-td-label="razonSocialCliente"> 
+					<b>RAZÓN SOCIAL CLIENTE</b> 
+									</div>
+			</div>
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="razonSocialCliente" title="">
+						<div class="input text"><label for="242da755-58a3-4d84-bdb6-44bcebae6083"></label><input type="text" name="JkrgObjects[242da755-58a3-4d84-bdb6-44bcebae6083]" placeholder="" style="width: 100%" data-input="razonSocialCliente" data-type="Texto" id="242da755-58a3-4d84-bdb6-44bcebae6083"></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="createObject" data-td-label="fechaRecepcion">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<div>
+				<div data-td-label="fechaRecepcion"> 
+					<b>FECHA DE RECEPCIÓN</b> 
+									</div>
+			</div>
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="fechaRecepcion" title="">
+						<div class="input text"><label for="4b847b56-01cc-477c-82ef-ac47007031ab"></label><input type="date" name="JkrgObjects[4b847b56-01cc-477c-82ef-ac47007031ab]" placeholder="" style="width: 100%" data-input="fechaRecepcion" data-type="Texto" id="4b847b56-01cc-477c-82ef-ac47007031ab"></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="createObject" data-td-label="descPQR">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<div>
+				<div data-td-label="descPQR"> 
+					<b>DESCRIPCIÓN DEL PQR</b> 
+									</div>
+			</div>
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="descPQR" title="">
+						<div class="input text"><label for="bdd20cc3-414b-46de-a5d7-d2a0e2c743b0"></label><input type="text" name="JkrgObjects[bdd20cc3-414b-46de-a5d7-d2a0e2c743b0]" placeholder="" style="width: 100%" data-input="descPQR" data-type="Texto" id="bdd20cc3-414b-46de-a5d7-d2a0e2c743b0"></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="" data-td-label="clasificacionPQR">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<div>
+				<div data-td-label="clasificacionPQR"> 
+					<b>CLASIFICACIÓN</b> 
+									</div>
+			</div>
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="clasificacionPQR" title="">
+						<div class="input select"><label for="f2f69b4a-2a2f-4009-b04d-fa11384d23a0"></label><select name="JkrgObjects[f2f69b4a-2a2f-4009-b04d-fa11384d23a0]" style="width: 100%;" data-input="clasificacionPQR" data-type="Lista" id="f2f69b4a-2a2f-4009-b04d-fa11384d23a0"><option value="">Seleccione una opcion</option><option value="P">P</option><option value="Q">Q</option><option value="R">R</option></select></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="createObject" data-td-label="tratamiento">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<div>
+				<div data-td-label="tratamiento"> 
+					<b>TRATAMIENTO</b> 
+									</div>
+			</div>
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="tratamiento" title="">
+						<div class="input text"><label for="23df1f77-b8c7-46df-8b44-4152429ac048"></label><input type="text" name="JkrgObjects[23df1f77-b8c7-46df-8b44-4152429ac048]" placeholder="" style="width: 100%" data-input="tratamiento" data-type="Texto" id="23df1f77-b8c7-46df-8b44-4152429ac048"></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="createObject" data-td-label="estado">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<div>
+				<div data-td-label="estado"> 
+					<b>ESTADO</b> 
+									</div>
+			</div>
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="estado" title="">
+						<div class="input select"><label for="472090b2-fc61-4a83-9739-75fdd80a41e7"></label><select name="JkrgObjects[472090b2-fc61-4a83-9739-75fdd80a41e7]" style="width: 100%;" data-input="estado" data-type="Lista" id="472090b2-fc61-4a83-9739-75fdd80a41e7"><option value="">Seleccione una opcion</option><option value="CERRADO">CERRADO</option><option value="ABIERTO">ABIERTO</option></select></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="" data-td-label="agregar1">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="agregar1" title="">
+						<input type="hidden" name="JkrgObjects[e7fc7319-b5f5-43c7-a2fd-9f619648262b]" style="width: 100%" data-input="agregar1" data-type="Label" id="e7fc7319-b5f5-43c7-a2fd-9f619648262b" value="<p style=&quot;text-align: center;&quot;><button id=&quot;agregar1&quot; style=&quot;box-shadow: none; background: transparent; border: none;&quot; type=&quot;button&quot;> <img style=&quot;width: 50px; height: 50px;&quot; src=&quot;https://cdn-icons-png.flaticon.com/512/12457/12457774.png&quot; alt=&quot;Agregar1&quot; /> </button></p>"><div data-div-label="agregar1"><p style="text-align: center;"><button id="agregar1" style="box-shadow: none; background: transparent; border: none;" type="button"> <img style="width: 50px; height: 50px;" src="https://cdn-icons-png.flaticon.com/512/12457/12457774.png" alt="Agregar1"> </button></p>&nbsp;</div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="" data-td-label="tabla1">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="tabla1" title="">
+						<input type="hidden" name="JkrgObjects[0bc53a00-81b2-48ea-ad51-e5ededecb4a5]" style="width: 100%" data-input="tabla1" data-type="Label" id="0bc53a00-81b2-48ea-ad51-e5ededecb4a5" value="<table border=&quot;1&quot; style=&quot;font-family: Arial, sans-serif; font-size: 10pt; border-collapse: collapse;&quot;><tr><td style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 20%; word-wrap: break-word; white-space: normal;&quot;> <strong>N° CONSECUTIVO PQR</strong> </td><td style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%; word-wrap: break-word; white-space: normal;&quot;> <strong>RAZON SOCIAL CLIENTE</strong> </td><td style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%; word-wrap: break-word; white-space: normal;&quot;> <strong>FECHA DE RECEPCIÓN</strong> </td><td style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 20%; word-wrap: break-word; white-space: normal;&quot;> <strong>DESCRIPCIÓN DEL PQR</strong> </td><td style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 15%; word-wrap: break-word; white-space: normal;&quot;> <strong>CLASIFICACIÓN</strong> </td><td style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 12%; word-wrap: break-word; white-space: normal;&quot;> <strong>TRATAMIENTO</strong> </td><td style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%; word-wrap: break-word; white-space: normal;&quot;> <strong>ESTADO</strong> </td><td class='accion1EditarJs' colspan=&quot;2&quot; style=&quot;text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%;&quot;><strong>ACCIÓN</strong></td></tr><tr><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>333333</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>333333</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>2024-11-15</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>djsakdakjdaa</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>Q</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>asdad</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>ABIERTO</td><td class='accion1EditarJs' style='text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;'><a name='editar1_campo_0' id='editar1_campo_0' class='submit btnEditar' href='#tabla' title='Editar'><img src='https://cdn-icons-png.flaticon.com/512/5045/5045787.png' alt='Editar1' style='width: 20px; height: 20px; min-width: 20px; max-width: 20px;' class='iconoEditar1'/></a> </td><td class='accion1EliminarJs' style='text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;'><a name='eliminar1_campo_0' id='eliminar1_campo_0' class='submit btnEliminar' href='#tabla' title='Eliminar'><img src='https://cdn-icons-png.flaticon.com/512/8568/8568248.png' alt='Eliminar1' style='width: 20px; height: 20px; min-width: 20px; max-width: 20px;' class='iconoEliminar1'/></a> </td></tr><tr><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>32323232</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>23232323</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>2024-11-05</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>sadaddadsdasaa</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>P</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>dasdsada</td><td style=&quot;border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;&quot;>ABIERTO</td><td class='accion1EditarJs' style='text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;'><a name='editar1_campo_1' id='editar1_campo_1' class='submit btnEditar' href='#tabla' title='Editar'><img src='https://cdn-icons-png.flaticon.com/512/5045/5045787.png' alt='Editar1' style='width: 20px; height: 20px; min-width: 20px; max-width: 20px;' class='iconoEditar1'/></a> </td><td class='accion1EliminarJs' style='text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;'><a name='eliminar1_campo_1' id='eliminar1_campo_1' class='submit btnEliminar' href='#tabla' title='Eliminar'><img src='https://cdn-icons-png.flaticon.com/512/8568/8568248.png' alt='Eliminar1' style='width: 20px; height: 20px; min-width: 20px; max-width: 20px;' class='iconoEliminar1'/></a> </td></tr></table>"><div data-div-label="tabla1"><table border="1" style="font-family: Arial, sans-serif; font-size: 10pt; border-collapse: collapse;"><tbody><tr><td style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 20%; word-wrap: break-word; white-space: normal;"> <strong>N° CONSECUTIVO PQR</strong> </td><td style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%; word-wrap: break-word; white-space: normal;"> <strong>RAZON SOCIAL CLIENTE</strong> </td><td style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%; word-wrap: break-word; white-space: normal;"> <strong>FECHA DE RECEPCIÓN</strong> </td><td style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 20%; word-wrap: break-word; white-space: normal;"> <strong>DESCRIPCIÓN DEL PQR</strong> </td><td style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 15%; word-wrap: break-word; white-space: normal;"> <strong>CLASIFICACIÓN</strong> </td><td style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 12%; word-wrap: break-word; white-space: normal;"> <strong>TRATAMIENTO</strong> </td><td style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%; word-wrap: break-word; white-space: normal;"> <strong>ESTADO</strong> </td><td class="accion1EditarJs" colspan="2" style="text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;; width: 10%;"><strong>ACCIÓN</strong></td></tr><tr><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">333333</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">333333</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">2024-11-15</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">djsakdakjdaa</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">Q</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">asdad</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">ABIERTO</td><td class="accion1EditarJs" style="text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;"><a name="editar1_campo_0" id="editar1_campo_0" class="submit btnEditar" href="#tabla" title="Editar"><img src="https://cdn-icons-png.flaticon.com/512/5045/5045787.png" alt="Editar1" style="width: 20px; height: 20px; min-width: 20px; max-width: 20px;" class="iconoEditar1"></a> </td><td class="accion1EliminarJs" style="text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;"><a name="eliminar1_campo_0" id="eliminar1_campo_0" class="submit btnEliminar" href="#tabla" title="Eliminar"><img src="https://cdn-icons-png.flaticon.com/512/8568/8568248.png" alt="Eliminar1" style="width: 20px; height: 20px; min-width: 20px; max-width: 20px;" class="iconoEliminar1"></a> </td></tr><tr><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">32323232</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">23232323</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">2024-11-05</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">sadaddadsdasaa</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">P</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">dasdsada</td><td style="border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;">ABIERTO</td><td class="accion1EditarJs" style="text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;"><a name="editar1_campo_1" id="editar1_campo_1" class="submit btnEditar" href="#tabla" title="Editar"><img src="https://cdn-icons-png.flaticon.com/512/5045/5045787.png" alt="Editar1" style="width: 20px; height: 20px; min-width: 20px; max-width: 20px;" class="iconoEditar1"></a> </td><td class="accion1EliminarJs" style="text-align:center; border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;"><a name="eliminar1_campo_1" id="eliminar1_campo_1" class="submit btnEliminar" href="#tabla" title="Eliminar"><img src="https://cdn-icons-png.flaticon.com/512/8568/8568248.png" alt="Eliminar1" style="width: 20px; height: 20px; min-width: 20px; max-width: 20px;" class="iconoEliminar1"></a> </td></tr></tbody></table></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+		
+			
+			<div class="" data-td-label="tabla1Json" style="display: none;">
+			<!-- 	Configuración visualizacion del títutlo	 -->
+						<!-- 	Configuración visualizacion del títutlo	 -->
+			
+						
+			<!-- 	Configuración de los campos	 -->
+			<div class="objectContent">
+									<div data-td-input="tabla1Json" title="">
+						<div class="input text"><label for="ea02d58a-6d15-4e34-8ba4-04328fef4417"></label><input type="text" name="JkrgObjects[ea02d58a-6d15-4e34-8ba4-04328fef4417]" placeholder="" style="width: 100%" data-input="tabla1Json" data-type="Texto" id="ea02d58a-6d15-4e34-8ba4-04328fef4417"></div>					</div>
+							
+			</div>
+			<!-- 	Configuración de los campos	 -->
+			</div>
+				</div>
+		
+
+		
+			
+	</fieldset></form>
+	<div id="floatActionButton" class="floatActionButton">
+		<a href="#" class="button" onclick="saveJkrgTemplateCreaterg('#JkrgObjectsCreatergForm', 'save_int')" title="[Alt+Shift+S]" accesskey="S" id="btnGuardaryVisualizar"><script>document.write(SUGAR.language.get( 'app_strings', 'LBL_GUARDAR_VISUALIZAR'))</script>Guardar y Visualizar</a>&nbsp;<a href="/dromos/system/custom/jk/jkondor-3.8createrg?defaults={" defaults":"def"}&id="5024f2ff-5285-c05f-a3b5-64513ab8588f&quot;" class="button discardButton" title="[Alt+Shift+C]" accesskey="C" id="btnLimpiar"><script>document.write(SUGAR.language.get( 'app_strings', 'LBL_CLEAR_BUTTON_LABEL'))</script>Limpiar</a>&nbsp;<a href="/dromos/system/custom/jk/jkondor-3.8/jkrgTemplates/visualizacion?show=print&amp;id=5024f2ff-5285-c05f-a3b5-64513ab8588f" class="button discardButton" title="[Alt+Shift+X]" accesskey="X" id="btnCancelar"><script>document.write(SUGAR.language.get( 'app_strings', 'LBL_CANCEL_BUTTON_LABEL'))</script>Cancelar</a> 
+		</div>
+	<script>console.log('Iniciar');
+
+var tabla1JsonObj = [];
+
+function inicializarTablaConEspacios(nombreTabla,campos){
+	var jsonValue = document.querySelector(`[data-input='${nombreTabla}Json']`).value;
+  if(!jsonValue){
+  	//crear objeto con los campos pasados por parámetro
+    let objetoPredeterminado = campos.reduce((obj,campo) => {
+    	obj[campo] = ' ';
+      return obj;
+    }, {});
+    document.querySelector(`[data-input='${nombreTabla}Json']`).value = JSON.stringify([objetoPredeterminado]);
+    console.log(objetoPredeterminado);                                  
+  } else {
+  	window[`${nombreTabla}JsonObj`] = JSON.parse(jsonValue);
+  }
+}
+
+  window.onload = function () {
+    //----- BLOQUEO DE CAMPOS SOLO LECTURA -----
+    if(document.getElementById("JkrgObjectsCreatergForm") !== null) {
+
+      console.log('en creacion');
+
+      document.querySelector("[data-input='fechaRecepcion']").type = 'date';
+
+
+    } else{
+
+      console.log('en edicion');
+
+      document.querySelector("[data-input='fechaRecepcion']").type = 'date';
+
+    }
+    
+    // -------- JSON 1 -------
+
+    var tabla1Json = document.querySelector("[data-input='tabla1Json']").value;
+    if(!tabla1Json){
+      tabla1Json = [];
+    } else{
+      tabla1Json = JSON.parse(tabla1Json);
+    }
+    try{
+      document.getElementById("JkrgObjectsCreatergForm").onsubmit=function(event) {
+        crear1Tabla('guardar1');
+      };
+    } catch (error) {
+      console.log('Error durante ejecucion onsubmit: '+ error);
+    }
+    if(document.getElementById("JkrgObjectsCreatergForm") !== null) {
+      console.log('En creacion');
+      document.querySelector("[data-td-label='tabla1Json']").style.display = "none";
+
+    } else {      
+      document.querySelector("[data-td-label='tabla1Json']").style.display = "none";      
+      console.log('En edicion');
+    }
+
+  };
+
+
+
+
+// --------- FUNCION AGREGAR CAMPOS ----------------
+
+  function agregar1Campos() {
+    let tabla1JsonObj; // Declaración explícita para evitar problemas
+    const encodedJson = document.querySelector("[data-input='tabla1Json']").value;
+    if (encodedJson != '') {
+      const decodedJson = decodeURIComponent(encodedJson.replace(/\+/g, '%20'));
+      tabla1JsonObj = JSON.parse(decodedJson);
+    } else {
+      tabla1JsonObj = [];
+    }
+    
+// OBTENER VALORES DE LOS CAMPOS
+    var npqr = document.querySelector('[data-input="npqr"]').value;
+    var razonSocialCliente = document.querySelector('[data-input="razonSocialCliente"]').value;
+    var fechaRecepcion = document.querySelector('[data-input="fechaRecepcion"]').value;
+    var descPQR = document.querySelector('[data-input="descPQR"]').value;
+    var clasificacionPQR = document.querySelector('[data-input="clasificacionPQR"]').value;
+    var tratamiento = document.querySelector('[data-input="tratamiento"]').value;
+    var estado = document.querySelector('[data-input="estado"]').value;
+
+    if (!npqr || !razonSocialCliente || !fechaRecepcion || !descPQR || !clasificacionPQR || !tratamiento || !estado) {
+        alert("Todos los campos son obligatorios.");
+        return; // Detiene la ejecución si algún campo está vacío
+    }
+    var nqrRegex = /^[0-9]+$/;
+    if(!npqr.match(nqrRegex)){
+    	alert("El número consecutivo pqr no puede contener letras");
+      return;
+    }
+    var editingIndex = document.querySelector("[data-input='tabla1Json']").getAttribute('data-editing-index');
+
+    if (editingIndex !== null && editingIndex !== '') { // Verificación extendida
+      // Si estamos editando, mantenemos el valor original de "tipoTratamiento"
+      let objeto = {
+        npqr: npqr || ' ',
+        razonSocialCliente: razonSocialCliente || ' ',
+        fechaRecepcion: fechaRecepcion || ' ',
+        descPQR: descPQR || ' ',
+        clasificacionPQR: clasificacionPQR || ' ',
+        tratamiento: tratamiento || ' ',
+        estado: estado || ' '
+      };
+
+      tabla1JsonObj[parseInt(editingIndex)] = objeto;
+      document.querySelector("[data-input='tabla1Json']").removeAttribute('data-editing-index');
+    } else {
+      // Para nuevas entradas, usamos los valores proporcionados
+      let objeto = {
+        npqr: npqr || ' ',
+        razonSocialCliente: razonSocialCliente || ' ',
+        fechaRecepcion: fechaRecepcion || ' ',
+        descPQR: descPQR || ' ',
+        clasificacionPQR: clasificacionPQR || ' ',
+        tratamiento: tratamiento || ' ',
+        estado: estado || ' '
+      };
+
+      if (tabla1JsonObj.length === 1 && Object.values(tabla1JsonObj[0]).every(value => value.trim() === '')) {
+        tabla1JsonObj[0] = objeto;
+      } else {
+        tabla1JsonObj.push(objeto);
+      }
+    }
+
+    // Actualizar el valor del JSON
+    document.querySelector("[data-input='tabla1Json']").value = JSON.stringify(tabla1JsonObj);
+    crear1Tabla('editar');
+
+    // Limpieza de los campos después de la edición/agregación
+
+    document.querySelector('[data-input="npqr"]').value = '';
+    document.querySelector('[data-input="razonSocialCliente"]').value = '';
+    document.querySelector('[data-input="fechaRecepcion"]').value = '';
+    document.querySelector('[data-input="descPQR"]').value = '';
+    document.querySelector('[data-input="clasificacionPQR"]').value = '';
+    document.querySelector('[data-input="tratamiento"]').value = '';
+    document.querySelector('[data-input="estado"]').value = '';
+  }
+
+
+  // --------- FUNCION CREACION TABLA DE CAMPOS ----------------
+
+  function crear1Tabla(funcion) {
+    var tabla1Json = document.querySelector("[data-input='tabla1Json']").value;
+    tabla1Json = JSON.parse(tabla1Json);
+
+    let estiloTabla = "font-family: Arial, sans-serif; font-size: 10pt; border-collapse: collapse;";
+    let estiloCeldas = "text-align: center; vertical-align: middle; background-color: #E21C21; color: #ffffff; border: 1px solid #ffffff; height: 28px;"; // Añadir height: 35px;
+    let estiloCeldasNormales = "border: 1px solid #B8B8B8; text-align: center; vertical-align: middle; height: 28px;"; // Añadir height: 35px;
+
+    let tabla = `<table border="1" style="${estiloTabla}">`;
+    tabla += "<tr>";
+
+    // Aplica los estilos a las celdas de la cabecera   
+    tabla += `<td style="${estiloCeldas}; width: 20%; word-wrap: break-word; white-space: normal;"> <strong>N° CONSECUTIVO PQR</strong> </td>`;
+    tabla += `<td style="${estiloCeldas}; width: 10%; word-wrap: break-word; white-space: normal;"> <strong>RAZON SOCIAL CLIENTE</strong> </td>`;
+    tabla += `<td style="${estiloCeldas}; width: 10%; word-wrap: break-word; white-space: normal;"> <strong>FECHA DE RECEPCIÓN</strong> </td>`;
+    tabla += `<td style="${estiloCeldas}; width: 20%; word-wrap: break-word; white-space: normal;"> <strong>DESCRIPCIÓN DEL PQR</strong> </td>`;
+    tabla += `<td style="${estiloCeldas}; width: 15%; word-wrap: break-word; white-space: normal;"> <strong>CLASIFICACIÓN</strong> </td>`;
+    tabla += `<td style="${estiloCeldas}; width: 12%; word-wrap: break-word; white-space: normal;"> <strong>TRATAMIENTO</strong> </td>`;
+    tabla += `<td style="${estiloCeldas}; width: 10%; word-wrap: break-word; white-space: normal;"> <strong>ESTADO</strong> </td>`;
+
+
+    if (funcion !== "guardar1") {
+      tabla += `<td class='accion1EditarJs' colspan="2" style="${estiloCeldas}; width: 10%;"><strong>ACCIÓN</strong></td>`;
+    }
+
+    tabla += "</tr>";
+
+    let botonesEditar1Campos = [];
+    let botonesEliminar1Campos = [];
+
+    // Inserta la información en la tabla con estilos aplicados a las celdas
+    for (var i = 0; i < tabla1Json.length; i++) {
+      tabla += "<tr>";
+      tabla += `<td style="${estiloCeldasNormales}">${tabla1Json[i]['npqr']}</td>`;
+      tabla += `<td style="${estiloCeldasNormales}">${tabla1Json[i]['razonSocialCliente']}</td>`;
+      tabla += `<td style="${estiloCeldasNormales}">${tabla1Json[i]['fechaRecepcion']}</td>`;
+      tabla += `<td style="${estiloCeldasNormales}">${tabla1Json[i]['descPQR']}</td>`;
+      tabla += `<td style="${estiloCeldasNormales}">${tabla1Json[i]['clasificacionPQR']}</td>`;
+      tabla += `<td style="${estiloCeldasNormales}">${tabla1Json[i]['tratamiento']}</td>`;
+      tabla += `<td style="${estiloCeldasNormales}">${tabla1Json[i]['estado']}</td>`;
+
+
+      if (funcion !== "guardar1") {
+
+        tabla += `<td class='accion1EditarJs' style='text-align:center; ${estiloCeldasNormales}'>` +
+          `<a name='editar1_campo_${i}' id='editar1_campo_${i}' class='submit btnEditar' href='#tabla' title='Editar'>` +
+          `<img src='https://cdn-icons-png.flaticon.com/512/5045/5045787.png' alt='Editar1' style='width: 20px; height: 20px; min-width: 20px; max-width: 20px;' class='iconoEditar1'/></a> </td>`;
+
+        tabla += `<td class='accion1EliminarJs' style='text-align:center; ${estiloCeldasNormales}'>` +
+          `<a name='eliminar1_campo_${i}' id='eliminar1_campo_${i}' class='submit btnEliminar' href='#tabla' title='Eliminar'>` +
+          `<img src='https://cdn-icons-png.flaticon.com/512/8568/8568248.png' alt='Eliminar1' style='width: 20px; height: 20px; min-width: 20px; max-width: 20px;' class='iconoEliminar1'/></a> </td>`;
+
+        botonesEditar1Campos.push(`editar1_campo_${i}`);
+        botonesEliminar1Campos.push('eliminar1_campo_' + i);
+      }
+      tabla += "</tr>";
+    }
+    tabla += "</table>";
+
+    // Inserta la tabla en el DOM
+    document.querySelector("[data-div-label='tabla1']").innerHTML = tabla;
+    document.querySelector("[data-input='tabla1']").value = tabla;
+
+    // Añade los eventos a los botones de eliminar
+    botonesEliminar1Campos.forEach(function(idBotonEliminar, indice) {
+      var elemento = document.getElementById(idBotonEliminar);
+      if(elemento) {
+        elemento.addEventListener("click", function(event){
+          event.preventDefault(); // Previene la navegación del enlace
+          eliminarCampo(1, indice); // Llama a la función genérica con el número de tabla e índice
+        });
+      }
+    });
+
+    // Añade los eventos a los botones de editar
+    botonesEditar1Campos.forEach(function(idBotonEditar, indice) {
+      var elemento = document.getElementById(idBotonEditar);
+      if(elemento) {
+        elemento.addEventListener("click", function(event){
+          event.preventDefault(); // Previene la navegación del enlace
+          editar1Campos(indice); // Llama a la función editar1Campos con el índice de la fila a editar
+        });
+      }
+    });
+
+
+  }
+
+  // --------------- FUNCION PARA ELIMINAR LOS CAMPOS DE TODAS LAS TABLAS ----------------------------
+
+  function eliminarCampo(numeroTabla, indiceCampo) {
+    var claveJson = `tabla${numeroTabla}Json`;
+    var selector = `[data-input='${claveJson}']`;
+    var tablaJson = document.querySelector(selector).value;
+    tablaJson = JSON.parse(tablaJson);
+
+    tablaJson.splice(indiceCampo, 1);
+
+    document.querySelector(selector).value = JSON.stringify(tablaJson);
+
+    window[`crear${numeroTabla}Tabla`]();
+  }
+
+  // Eventos de clic para botones de agregar campos, ajustados para usar la función genérica
+
+  document.getElementById('agregar1').addEventListener('click', agregar1Campos, false);
+
+
+  // --------------- FUNCION PARA EDITAR LOS CAMPOS DE TODAS LAS TABLAS ----------------------------
+
+  function editar1Campos(indice) {
+    var tablaJson = JSON.parse(document.querySelector("[data-input='tabla1Json']").value);
+    var fila = tablaJson[indice];
+
+    // Rellenar campos editables
+
+    document.querySelector('[data-input="npqr"]').value = fila.npqr;
+    document.querySelector('[data-input="razonSocialCliente"]').value = fila.razonSocialCliente;
+    document.querySelector('[data-input="fechaRecepcion"]').value = fila.fechaRecepcion;
+    document.querySelector('[data-input="descPQR"]').value = fila.descPQR;
+    document.querySelector('[data-input="clasificacionPQR"]').value = fila.clasificacionPQR;
+    document.querySelector('[data-input="tratamiento"]').value = fila.tratamiento;
+    document.querySelector('[data-input="estado"]').value = fila.estado;
+
+    // Establece el índice que se está editando
+    document.querySelector("[data-input='tabla1Json']").setAttribute('data-editing-index', indice);
+  }
+
+
+console.log('final');
+
+</script> 
+	
+	<!-- Reemplazo de espacios por comas y eliminación de última coma  -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#JkrgObjectsCorreoRegistro")
+			.on( "keydown", function(e){
+							
+				if(event.key == ' '){
+					event.preventDefault();
+					this.value = this.value.replace(/,\s*$/, ''); saveJkrgTemplateCreaterg
+					this.value = this.value + ",";
+				}
+			})
+			.on( "blur", function( event ) {
+				this.value = this.value.replace(/,\s*$/, ''); saveJkrgTemplateCreaterg
+			})	
+		}); // $().ready
+	</script>
+	
+			<!-- 	v-5.12 : Configuración para autocompletar correo radicado 	-->
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+
+				// v-5.39 : Inclusión de varios correos radicados
+				function split( val ) {	return val.split( /,\s*/ );	}
+				function extractLast( term ) { return split( term ).pop(); }
+				
+				$("#JkrgObjectsCorreoRegistro")
+
+					.on( "keydown", function( event ) {
+						if ( event.keyCode === $.ui.keyCode.TAB &&
+							$( this ).autocomplete( "instance" ).menu.active ) {
+								event.preventDefault();
+						}
+					})	
+				
+					.autocomplete({
+						minLength: this.length + 3,
+						source: function(request, response) {
+							
+							$("#ajax-loader").fadeIn('normal');
+							$.ajax({
+								url: "/dromos/system/custom/jk/jkondor-3.8/JkWebServices/getEmail/" + extractLast(request.term),
+								data: request,
+								dataType: "json",
+								type: "GET",
+								success: function(data) {
+									response(data);
+								},
+								error: function (xhr, ajaxOptions, thrownError) {
+									alert(xhr.status);
+									alert(thrownError);
+								}
+
+							});
+							$("#ajax-loader").fadeOut("normal");
+						},
+
+						focus: function() { return false; },
+
+						select: 
+						function(event, ui) {
+							var terms = split( this.value );
+							terms.pop(); // Remove the current input
+							terms.push( ui.item.value ); // Add the selected item
+							terms.push( " " ); // Add placeholder to get the comma-and-space at the end
+							this.value = terms.join( ", " );
+							return false;	
+						}
+
+					}); // end $("#JkrgObjectsCorreoRegistro")
+			}); // $().ready
+
+		</script>
+	
+	<br>
+
+			
+	
+	
+</div>
+
+
+<div align="center">
+<br>
+<b> Nunca envíes contraseñas a través de las Plantillas de Condor Suite. </b>
+<br>
+<a href="https://jkondor.jktic.com/jktic/system/custom/jk/jkondor/jkd_documents/createrg?iContent=false&amp;id=2283e8fa-e3aa-c6d6-5b88-5bc0c6934cb9&amp;defaults={&quot;linkFormato&quot;:&quot;jkm.jktic.com/dromos/system/custom/jk/jkondor-3.8/jkrgTemplates/createrg?iContent=true&amp;id=5024f2ff-5285-c05f-a3b5-64513ab8588f&amp;defaults=%7B%22DEFAULTS%22%3A%22def%22%7D&quot;}" target="blank">
+Notificar uso inadecuado del servicio
+</a>
+</div>
+
+
+        </div>
+        </td>
+	  </tr>
+	 </tbody>
+	</table>
+    <footer>
+    </footer>
+
+
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 1; top: 0px; left: 0px; display: none;"></ul></body></html>
